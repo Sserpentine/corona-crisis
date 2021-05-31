@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@600&display=swap');
+​*{
+margin: 0;
+padding: 0;
+}
+body{
+    font-family: 'Texturina', serif;
+    background: url("https://static.vecteezy.com/system/resources/thumbnails/001/975/679/small_2x/corona-virus-background-free-vector.jpg");
+    text-align: center;
+    background-size: cover;
+}
+​
+h1{
+    color: maroon;
+    font-size: 1000px;
+}
+​
+h2{
+    color: maroon;
+    font-size: 50px;
+}
+​
+p{
+    color: rgb(83, 7, 77);
+    font-size: 40px;
+}
+​
+img{
+  width: 800px;
+  border: 10px navy;  
+  border-radius: 40px;
+}
+#nav-bar{
+    background-color: #00C9A7;
+    height: 80px;
+    width: 1902px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-text{
+    font-size: 30px;
+    display: flex;
+    color: black;
+    cursor: pointer;
+}
+@media (max-width: 600px){
+    #nav-bar{
+        width: 600px;
+    }
+    .nav-text{
+        font-size: 20px;
+    }
+    img{
+        height: 150px;
+        width: 200px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    body{
+        background-size: cover, 600px;
+    }
+    p{
+        font-size: 15px;
+    }
+    h2{
+        font-size: 25px;
+    }
+}

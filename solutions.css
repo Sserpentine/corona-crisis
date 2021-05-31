@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #321831;
+    font-family: 'Texturina', serif;
+    background-image: url(https://safeguardproperties.com/wp-content/uploads/2020/03/COIVD-19-Spotlight_4.5.20-scaled.jpg);
+    background-size: contain;
+}
+
+.faq{
+    padding: 50px;
+}
+
+.faq h1{
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.questions-container{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.question button{
+    width: 100%;
+    background-color: #e7dcd3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border:none; outline: none;
+    font-size: 16px;
+    color: #321831;
+    font-weight: 700;
+    cursor: pointer;
+    border-bottom: 1px solid #321831;
+}
+
+.question button i{
+    transform: rotate(180deg);
+    transition: all 0.3s;
+}
+
+.question p{
+    background-color: #feb98a;
+    font-size: 14px;
+    max-height: 0;
+    opacity: 0;
+    line-height: 1.6;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.question p.show{
+    max-height: 200px; opacity: 1;
+    padding: 20px;
+}
+
+.question button i.rotate{
+    transform: none;
+}
+#nav-bar{
+    background-color: #00C9A7;
+    height: 80px;
+    width: 1902px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-text{
+    font-size: 30px;
+    display: flex;
+    color: black;
+    cursor: pointer;
+}
+
+@media (max-width:600px){
+    #nav-bar{
+        width: 600px;
+    }
+    .nav-text{
+        font-size: 20px;
+    }
+    span{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 30px;
+    }
+}

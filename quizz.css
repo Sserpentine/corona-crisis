@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@100&display=swap');
+#nav-bar{
+    background-color: #00C9A7;
+    height: 80px;
+    width: 1902px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-text{
+    font-size: 30px;
+    display: flex;
+    color: black;
+    cursor: pointer;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightpink;
+    font-family: 'Texturina', serif;
+}
+img{
+    width: 300px;
+}
+button{
+    color: white;
+    height: 30px;
+    background-color: darkblue;
+    cursor: pointer;
+    margin-top: 5px;
+}
+#PlayAgain{
+    background-color: red;
+}
+@media(max-width:600px){
+    #nav-bar{
+        width: 600px;
+    }
+    .nav-text{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 30px;
+    }
+}
